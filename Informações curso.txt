@@ -1,0 +1,27 @@
+Curso de Git & Github = https://www.youtube.com/watch?v=Yp0RRTdtkqY 
+
+00:00 - Introdução
+00:56 - O problema que o Git veio resolver
+03:27 - O que é o Git?
+    . Sistema que grava mudanças feitas em arquivos ao longo do tempo por meio de "snapshots"
+    . Podemos voltar em uma determinada mudança a qualquer momento
+    . permite colaboração de vários desenvolvedores no projeto
+
+04:58 - Fluxo Git (git init, add, commit)
+    . git init: inicializa um repositório
+    . git add: prepara os arquivos para serem commitados
+    . git commit-m "mensagem": faz o commit(snapshot) dos arquivos preparados
+
+    configurando usuário git (Git BASH)
+        . git config --global user.name "Giovani Appezzato"
+        . git config --global user.email "giovani.apztt@gmail.com"
+
+06:49 - Preparação do ambiente de desenvolvimento
+08:35 - Configuração inicial do Git 
+10:06 - Criação do projeto
+11:43 - Inicialização do repositório Git
+
+13:04 - Fluxo Git na prática (git add, status, commit, log)
+    . git status: mostra status dos arquivos
+    . git rm --cached <file>: remove um arquivo de preparado para ser comitado
+
