@@ -29,3 +29,7 @@ Curso de Git & Github = https://www.youtube.com/watch?v=Yp0RRTdtkqY
 
 16:34 - Ignorar arquivos (.gitignore)
 
+20:42 - Branches (git branch, checkout)
+    . git branch: visualiza TODAS as branches
+    . git branch <branch>: cria uma no branch
+    . git checkout <branch>: muda de branch
