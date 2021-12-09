@@ -33,3 +33,6 @@ Curso de Git & Github = https://www.youtube.com/watch?v=Yp0RRTdtkqY
     . git branch: visualiza TODAS as branches
     . git branch <branch>: cria uma no branch
     . git checkout <branch>: muda de branch
+
+26:23 - Junção de branches (git merge)
+    . git merge <nome branch>: fazer o merge entre 2 branches
