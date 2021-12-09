@@ -24,4 +24,8 @@ Curso de Git & Github = https://www.youtube.com/watch?v=Yp0RRTdtkqY
 13:04 - Fluxo Git na prática (git add, status, commit, log)
     . git status: mostra status dos arquivos
     . git rm --cached <file>: remove um arquivo de preparado para ser comitado
+    . git add .: prepara TODOS os arquivos para commit
+    . git log: Exibi TODOS os commits
+
+16:34 - Ignorar arquivos (.gitignore)
 
