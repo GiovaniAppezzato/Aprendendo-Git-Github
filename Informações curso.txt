@@ -24,10 +24,10 @@ Curso de Git & Github = https://www.youtube.com/watch?v=Yp0RRTdtkqY
 13:04 - Fluxo Git na prática (git add, status, commit, log)
     . git status: mostra status dos arquivos
     . git rm --cached <file>: remove um arquivo de preparado para ser comitado
-    . git add .: prepara TODOS os arquivos para commit
+    . git add .: prepara TODOS os arquivos para commit  
     . git log: Exibi TODOS os commits
 
-16:34 - Ignorar arquivos (.gitignore)
+16:34 - Ignorar arquivos (.gitignore) 
 
 20:42 - Branches (git branch, checkout)
     . git branch: visualiza TODAS as branches
@@ -36,3 +36,51 @@ Curso de Git & Github = https://www.youtube.com/watch?v=Yp0RRTdtkqY
 
 26:23 - Junção de branches (git merge)
     . git merge <nome branch>: fazer o merge entre 2 branches
+
+28:22 - O que é o GitHub?
+30:09 - Criação do repositório remoto no GitHub (OBS: Origin é o nome padrão)
+    
+31:02 - Integração do repositório local ao remoto
+    . git remote add <origin> https://github.com/GiovaniAppezzato/Aprendendo-Git-Github: vincula o repositório local com o reposotório do github
+    . git remote: visualiza os repositórios remotos
+    . git branch -M main: muda o nome do repositório master para "main"
+
+32:32 - "Upload" do repositório local (git push)
+    . git push -u <repositório> <branch>:
+        ex: git push -u origin main
+            git push -u origin development
+            git push -u origin cadastro-cliente
+
+36:06 - Clonar um repositório (git clone)
+    . git clone <URL reposotório>: clona um reposotório
+
+37:27 - Atualização do repositório local (git clone, pull)
+    . git pull: vai atualizar TODOS os branches e arquivos locais
+    . git pull origin main: vai atualizar APENAS a branch "main"
+    . git pull origin development: vai atualizar APENAS a branch "development" 
+    . git pull origin cadastro-cliente: vai atualizar APENAS a branch "cadastro-cliente"
+
+40:06 - Integração do VSCode com o Git
+45:05 - Conclusão
+
+
+
+Todos os códigos vistos na aula:
+    . git init: inicializa um repositório
+    . git add: prepara os arquivos para serem commitados
+    . git commit-m "mensagem": faz o commit(snapshot) dos arquivos preparados
+
+    . git config --global user.name "Giovani Appezzato"
+    . git config --global user.email "giovani.apztt@gmail.com"
+
+    . git status: mostra status dos arquivos
+    . git rm --cached <file>: remove um arquivo de preparado para ser comitado
+    . git add .: prepara TODOS os arquivos para commit
+    . git log: Exibi TODOS os commits
+    . git branch: visualiza TODAS as branches
+    . git branch <branch>: cria uma no branch
+    . git checkout <branch>: muda de branch
+    . git push -u <repositório> <branch>:
+    . git clone <URL reposotório>: clona um reposotório
+    . git pull: vai atualizar TODOS os branches e arquivos locais
+    . git pull origin main: vai atualizar APENAS a branch "main"
